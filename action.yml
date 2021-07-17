@@ -27,7 +27,7 @@ inputs:
 runs:
   using: "composite"
   steps: 
-    - run: sudo pip3 install vunit_hdl
+    - run: sudo pip3 install --quiet vunit_hdl
       shell: bash
       
     - run: sudo npm install --silent -g git://github.com/TerosTechnology/colibri.git#master
