@@ -21,7 +21,7 @@ inputs:
         --outpath, <type>         Explicit outputh documentation path (default: "")
         --self_contained          Documentation generated in a single file for html output
 
-    default: "-i ./ --recursive --out html --fsm -s all -c all -p all -f all --outpath teroshdl_doc"
+    default: "-i ./ --recursive --out html --fsm -s all -c all -p all -f all --outpath teroshdl_doc --dep"
     required: false
 
 runs:
