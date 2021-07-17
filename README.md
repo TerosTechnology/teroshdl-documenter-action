@@ -24,7 +24,7 @@ Using an Action is the most idiomatic and less verbose solution.
 
     - uses: actions/checkout@v2
 
-    - uses: TerosTechnology/teroshdl-documenter-action@master
+    - uses: TerosTechnology/teroshdl-documenter-action@main
       with:
         args: -i ./ --recursive --out html
 ```
